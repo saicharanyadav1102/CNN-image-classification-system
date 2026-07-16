@@ -1,0 +1,28 @@
+# --- Large Datasets & Archives ---
+archive.zip
+caltech-101/
+dataset/
+*.zip
+*.tar.gz
+
+# --- Python Virtual Environment & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# --- Android Studio & Gradle Build Files ---
+android-app/.gradle/
+android-app/build/
+android-app/app/build/
+android-app/local.properties
+android-app/*.iml
+android-app/.idea/
+
+# --- IDE & OS Cache Files ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- White Circle background inside adaptive icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 C70.5,24 84,37.5 84,54 C84,70.5 70.5,84 54,84 C37.5,84 24,70.5 24,54 C24,37.5 37.5,24 54,24 Z"/>
+        
+    <!-- Camera body icon -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M66,39 L63,35 L45,35 L42,39 L33,39 C30.8,39 29,40.8 29,43 L29,67 C29,69.2 30.8,71 33,71 L75,71 C77.2,71 79,69.2 79,67 L79,43 C79,40.8 77.2,39 75,39 L66,39 Z M54,65 C47.4,65 42,59.6 42,53 C42,46.4 47.4,41 54,41 C60.6,41 66,46.4 66,53 C66,59.6 60.6,65 54,65 Z M54,45 C49.6,45 46,48.6 46,53 C46,57.4 49.6,61 54,61 C58.4,61 62,57.4 62,53 C62,48.6 58.4,45 54,45 Z"/>
+</vector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Secondary accent colors -->
+    <color name="secondary">#42A5F5</color>
+    <color name="secondary_variant">#1E88E5</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <!-- Background and surface colors -->
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#1A1A2E</color>
+    <color name="on_surface">#1A1A2E</color>
+
+    <!-- Card and image placeholder -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="image_placeholder">#E3F2FD</color>
+
+    <!-- Result text color -->
+    <color name="result_text">#0D47A1</color>
+
+    <!-- Error color -->
+    <color name="error">#B00020</color>
+</resources>
