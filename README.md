@@ -73,7 +73,9 @@ A full-stack Artificial Intelligence and Machine Learning project that classifie
 * **Training Dataset Size:** `9,000 images` (`3,000` per class)
 * **Model File Size:** `2.42 MB` (Optimized with TFLite XNNPACK/CPU flatbuffer patching)
 
-# Note on Model Limitations & Statistical Predictions: Deep Learning neural networks (including MobileNetV2) evaluate images by calculating mathematical similarity across visual feature maps (edges, curves, and textures). Because the model makes statistical predictions rather than logical assertions, it operates within a closed probabilistic world. As a result:
+## Note on Model Limitations & Statistical Predictions: 
+#### Deep Learning neural networks (including MobileNetV2) evaluate images by calculating mathematical similarity across visual feature maps (edges, curves, and textures). Because the model makes statistical predictions rather than logical assertions, it operates within a closed probabilistic world 
+#### As a result:
                
-         * Out-of-distribution objects sharing visual similarities with trained classes (e.g., a coiled charging cable resembling a curled pet tail) may occasionally trigger unexpected class predictions.
-         * For critical production deployments, statistical models should always be paired with secondary validation layers or human oversight.
+* Out-of-distribution objects sharing visual similarities with trained classes (e.g., a coiled charging cable resembling a curled pet tail) may occasionally trigger unexpected class predictions.
+* For critical production deployments, statistical models should always be paired with secondary validation layers or human oversight.
